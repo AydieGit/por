@@ -1,0 +1,61 @@
+.Header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+.Header img{
+    margin-top: 150px;
+    border-radius: 50%;
+}
+.Header h1{
+    text-align: center;
+    width: 70%;
+    font-weight: 600;
+    font-size: 90px;
+}
+.Header h1 span{
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Header p{
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+}
+.Header-action{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.Header-connect{
+    padding: 25px 45px;
+    border-radius: 50px;
+    background: linear-gradient(300deg, #DF8908, #d819b8);
+    cursor: pointer;
+}
+.Header-resamue{
+    padding: 25px 45px;
+    border-radius: 50px;
+    background: linear-gradient(120deg, #1f58d1, #ce15b5);
+    cursor: pointer;
+}
+.Header-connect:hover{
+    border: 2px solid white;
+}
+.Header-resamue:hover{
+    border: 2px solid white;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+a:active{
+    text-decoration: none;
+}

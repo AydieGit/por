@@ -1,0 +1,41 @@
+.recentProjects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+.recent-title{
+    position: relative;
+}
+.recent-title h1{
+    padding: 0 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+.recent-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.Recent-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+
+}
+.Recent-container img{
+    box-sizing: border-box;
+    width: 500px;
+    height: 280px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.Recent-container img:hover{
+    transform: scale(1.1);
+    border: 4px solid #acaec0;
+    border-radius: 10px;
+    transition: 0.3s;
+}
